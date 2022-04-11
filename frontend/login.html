@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Musico | Home</title>
+    <title>Musico | Login</title>
     <!-- bootstrap  -->
     <link
       rel="stylesheet"
@@ -20,7 +20,7 @@
     />
     <!-- custom  -->
     <link rel="stylesheet" href="./assets/css/common.css" />
-    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
     <!-- jquery  -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -35,16 +35,28 @@
         <a href="./index.html" class="logo-container">
           <img src="./assets/images/logo.png" alt="logo" />
         </a>
-        <a href="./login.html" class="login-btn"> Sign In</a>
       </div>
-      <div class="title-text">
-        <h1>
-          Are you there ? <br />
-          Let's enjoy the music.
-        </h1>
-        <p class="p3">Watch anywhere. Cancel anytime.</p>
-        <div class="btn-container flex-css pt-3">
-          <a href="./register.html" class="register-btn">Get Started</a>
+      <div class="form-container">
+        <div class="title pb-4">
+          <h1>Sign In</h1>
+        </div>
+        <div class="input-wrapper">
+          <div class="input-box">
+            <input type="text" placeholder="Username or Email" />
+          </div>
+        </div>
+        <div class="input-wrapper">
+          <div class="input-box">
+            <input type="password" placeholder="Password" />
+          </div>
+        </div>
+
+        <div class="btn-container flex-css pt-2">
+          <a href="#">Log In</a>
+        </div>
+
+        <div class="note-link pt-4">
+          <p>New to Musico? <a href="./login.html">Sign Up</a></p>
         </div>
       </div>
     </div>
